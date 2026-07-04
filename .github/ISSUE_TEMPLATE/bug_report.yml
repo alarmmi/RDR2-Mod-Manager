@@ -1,0 +1,45 @@
+name: Bug report
+description: Report a problem with RDR2 Mod Manager
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve RDR2 Mod Manager. Do not include private paths, account data, or copyrighted game files.
+  - type: input
+    id: version
+    attributes:
+      label: RDR2 Mod Manager version
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - Installation
+        - Mod profiles
+        - Backup and restore
+        - Conflict detection
+        - LML mods
+        - ASI plugins
+        - Reshade presets
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Explain exactly what happened.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true

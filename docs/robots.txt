@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alarmmi.github.io/RDR2-Mod-Manager/sitemap.xml

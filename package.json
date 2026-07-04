@@ -1,0 +1,45 @@
+{
+  "name": "rdr2-mod-manager",
+  "version": "0.1.0",
+  "description": "Open-source Red Dead Redemption 2 mod manager for PC: profiles, backups, conflict detection, and safe RDR2 mod workflows.",
+  "keywords": [
+    "rdr2",
+    "red-dead-redemption-2",
+    "rdr2-mod-manager",
+    "red-dead-redemption-2-mod-manager",
+    "lml",
+    "lennys-mod-loader",
+    "scripthookrdr2",
+    "asi-loader",
+    "mod-manager"
+  ],
+  "homepage": "https://alarmmi.github.io/RDR2-Mod-Manager/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alarmmi/RDR2-Mod-Manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alarmmi/RDR2-Mod-Manager/issues"
+  },
+  "author": "alarmmi",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "rdr2mm": "dist/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/cli/index.js",
+    "test": "vitest run",
+    "lint": "tsc --noEmit",
+    "docs:serve": "bundle exec jekyll serve --source docs"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "typescript": "latest",
+    "vitest": "latest"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

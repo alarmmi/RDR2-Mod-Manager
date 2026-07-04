@@ -1,205 +1,118 @@
-# <p align="center">
-# <img src="assets/banner.png" alt="RDR2 Mod Manager Banner">
-# </p>
+# RDR2 Mod Manager — Red Dead Redemption 2 Mod Manager for PC
 
-<h1 align="center">
-RDR2 Mod Manager
-</h1>
+[![GitHub stars](https://img.shields.io/github/stars/alarmmi/RDR2-Mod-Manager?style=flat-square)](https://github.com/alarmmi/RDR2-Mod-Manager/stargazers)
+[![GitHub release](https://img.shields.io/github/v/release/alarmmi/RDR2-Mod-Manager?style=flat-square)](https://github.com/alarmmi/RDR2-Mod-Manager/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Documentation](https://img.shields.io/badge/docs-GitHub%20Pages-blue?style=flat-square)](https://alarmmi.github.io/RDR2-Mod-Manager/)
 
-<p align="center">
-A modern open-source mod management utility for Red Dead Redemption 2 single-player.
-</p>
+**RDR2 Mod Manager** is an open-source mod manager concept for **Red Dead Redemption 2 on PC**. It is designed to help players install, enable, disable, organize, backup, and troubleshoot single-player RDR2 mods without losing track of game files.
 
-<p align="center">
+> Unofficial project. Not affiliated with, endorsed by, or sponsored by Rockstar Games, Take-Two Interactive, Nexus Mods, Lenny's Mod Loader, Script Hook RDR2, or any mod author. Use mods responsibly and always keep backups.
 
-<img src="https://img.shields.io/github/license/USERNAME/rdr2-mod-manager?style=for-the-badge">
+![RDR2 Mod Manager banner](assets/banner.png)
 
-<img src="https://img.shields.io/github/stars/USERNAME/rdr2-mod-manager?style=for-the-badge">
+## Why this RDR2 Mod Manager exists
 
-<img src="https://img.shields.io/github/downloads/USERNAME/rdr2-mod-manager/total?style=for-the-badge">
+Managing Red Dead Redemption 2 mods can become messy fast: LML folders, ASI plugins, ScriptHook files, texture packs, reshades, configuration files, and manual backups all end up in the same game directory. **RDR2 Mod Manager** focuses on safe mod workflows:
 
-<img src="https://img.shields.io/github/v/release/USERNAME/rdr2-mod-manager?style=for-the-badge">
+- one-click enable and disable for Red Dead Redemption 2 mods;
+- profile-based mod loadouts for story mode, realism, graphics, roleplay, and testing;
+- automatic backups before changing the RDR2 game directory;
+- conflict detection for duplicate files and risky overrides;
+- readable mod manifests for advanced users;
+- troubleshooting pages for common RDR2 mod problems.
 
-</p>
+## Key features
 
-<p align="center">
+| Feature | What it does | SEO intent covered |
+|---|---|---|
+| Mod profiles | Save different Red Dead Redemption 2 mod setups | RDR2 mod loadout, RDR2 mod profile |
+| Backup system | Restore changed files after bad installs | RDR2 mod backup, restore RDR2 files |
+| Conflict scanner | Find duplicate files before launch | RDR2 mod conflict, mod manager conflict detection |
+| LML-friendly layout | Keep LML mods organized | Lenny's Mod Loader manager, RDR2 LML mods |
+| ASI plugin awareness | Track ASI files and ScriptHook-based plugins | RDR2 ASI loader, Script Hook RDR2 mods |
+| Clean uninstall | Disable mods without deleting originals | uninstall RDR2 mods safely |
 
-<a href="https://github.com/USERNAME/rdr2-mod-manager/releases/latest">
+## Documentation
 
-<img src="https://img.shields.io/badge/⬇-Download_Latest_Release-2ea44f?style=for-the-badge">
+Start here:
 
-</a>
+- [Installation guide](docs/installation.md)
+- [Quick start](docs/quick-start.md)
+- [Features](docs/features.md)
+- [User guide](docs/user-guide.md)
+- [Compatibility](docs/compatibility.md)
+- [Supported mods](docs/supported-mods.md)
+- [Troubleshooting](docs/troubleshooting.md)
+- [Backup and restore](docs/backup.md)
+- [Configuration](docs/configuration.md)
+- [FAQ](docs/faq.md)
+- [Performance](docs/performance.md)
+- [Architecture](docs/architecture.md)
+- [Roadmap](docs/roadmap.md)
+- [Glossary](docs/glossary.md)
+- [SEO keyword map](docs/seo-keyword-map.md)
 
-<a href="docs/installation.md">
+Full documentation site: **https://alarmmi.github.io/RDR2-Mod-Manager/**
 
-<img src="https://img.shields.io/badge/📖-Documentation-0366d6?style=for-the-badge">
+## Install from source
 
-</a>
-
-</p>
-
----
-
-## Overview
-
-RDR2 Mod Manager is an open-source desktop application designed to simplify the installation, organization, and maintenance of modifications for Red Dead Redemption 2 single-player.
-
-Instead of manually copying files between multiple folders, users can install, enable, disable, organize, and back up modifications through a single interface.
-
-The project focuses on stability, ease of use, and safe mod management while keeping the original game installation easy to restore.
-
----
-
-# Features
-
-- Modern interface
-- One-click mod installation
-- Enable / Disable mods
-- Profile management
-- Automatic backups
-- Restore previous configurations
-- Mod conflict detection
-- Import & Export profiles
-- Drag & Drop support
-- Fast search
-- Favorites
-- Categories
-- Automatic update checker
-- Plugin-ready architecture
-
----
-
-# Screenshots
-
-| Home | Installed Mods |
-|------|----------------|
-| assets/screenshots/home.png | assets/screenshots/mods.png |
-
-| Profiles | Settings |
-|----------|----------|
-| assets/screenshots/profiles.png | assets/screenshots/settings.png |
-
-More screenshots →
-
-docs/screenshots.md
-
----
-
-# Quick Start
-
-1. Download the latest release.
-
-2. Extract the archive.
-
-3. Launch the application.
-
-4. Select your RDR2 installation folder.
-
-5. Start managing your mods.
-
-For detailed instructions see:
-
-docs/installation.md
-
----
-
-# Documentation
-
-| Guide | Description |
-|--------|-------------|
-| Installation | docs/installation.md |
-| Quick Start | docs/quick-start.md |
-| Features | docs/features.md |
-| User Guide | docs/user-guide.md |
-| Compatibility | docs/compatibility.md |
-| Supported Mods | docs/supported-mods.md |
-| Backup & Restore | docs/backup.md |
-| Configuration | docs/configuration.md |
-| Troubleshooting | docs/troubleshooting.md |
-| Performance | docs/performance.md |
-| FAQ | docs/faq.md |
-| Roadmap | docs/roadmap.md |
-| Architecture | docs/architecture.md |
-| Glossary | docs/glossary.md |
-
----
-
-# Project Structure
-
-```
-src/
-assets/
-docs/
-examples/
-tests/
+```bash
+git clone https://github.com/alarmmi/RDR2-Mod-Manager.git
+cd RDR2-Mod-Manager
+npm install
+npm run build
+npm run start -- --help
 ```
 
----
+## Example CLI usage
 
-# Why RDR2 Mod Manager?
+```bash
+rdr2mm scan --game "C:\Program Files\Rockstar Games\Red Dead Redemption 2"
+rdr2mm backup create --name before-graphics-pack
+rdr2mm profile create realism
+rdr2mm mod enable lml-realistic-economy --profile realism
+rdr2mm mod disable reshade-preset --profile vanilla-safe
+```
 
-- Clean user interface
+## Example mod manifest
 
-- Easy setup
+```json
+{
+  "id": "example-lml-mod",
+  "name": "Example RDR2 LML Mod",
+  "version": "1.0.0",
+  "type": "lml",
+  "game": "red-dead-redemption-2",
+  "files": ["lml/example-mod/install.xml", "lml/example-mod/stream/texture.ytd"],
+  "requires": ["lml"],
+  "conflictsWith": ["example-overhaul-pack"]
+}
+```
 
-- Safe backup system
+## SEO strategy used in this repository
 
-- Fast profile switching
+This repository is intentionally structured so that Google can understand every important page:
 
-- Open Source
+- every documentation file has one clear H1 title;
+- every page targets a distinct search intent;
+- internal links connect related pages;
+- image alt text describes screenshots and diagrams;
+- GitHub Pages front matter includes unique titles and descriptions;
+- FAQ content answers long-tail search queries like “how to backup RDR2 mods” and “why are my RDR2 mods not loading”.
 
-- Regular updates
+## Project status
 
-- Lightweight
+This repository is a high-quality starter template and architecture sample. It includes docs, examples, configuration, TypeScript skeleton code, tests, issue templates, and GitHub Actions. The UI and installer can be implemented incrementally.
 
-- Beginner friendly
+## Safety and fair use
 
----
+RDR2 Mod Manager does not bypass DRM, does not modify online services, and is not intended for cheating or multiplayer advantage. It is designed for legitimate single-player mod organization, backups, and troubleshooting.
 
-# FAQ
+## Contributing
 
-Frequently asked questions are available here:
+Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md), and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
 
-docs/faq.md
+## License
 
----
-
-# Roadmap
-
-Upcoming features are documented in
-
-docs/roadmap.md
-
----
-
-# Contributing
-
-Contributions are welcome.
-
-Please read:
-
-CONTRIBUTING.md
-
----
-
-# Security
-
-Security policy:
-
-SECURITY.md
-
----
-
-# License
-
-Released under the MIT License.
-
-See LICENSE for details.
-
----
-
-<p align="center">
-
-Made with ❤️ for the Red Dead Redemption 2 modding community.
-
-</p>
+MIT License © alarmmi. See [LICENSE](LICENSE).

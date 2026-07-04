@@ -1,0 +1,10 @@
+{
+  "name": "graphics-ultra",
+  "description": "Example Red Dead Redemption 2 graphics mod profile.",
+  "enabledMods": [
+    "example-lml-weather-overhaul",
+    "example-reshade-preset"
+  ],
+  "createdAt": "2026-07-04T12:00:00Z",
+  "notes": "Enable only after creating a clean backup."
+}

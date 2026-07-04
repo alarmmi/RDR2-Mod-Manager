@@ -1,0 +1,17 @@
+{
+  "id": "example-lml-weather-overhaul",
+  "name": "Example LML Weather Overhaul",
+  "version": "1.0.0",
+  "author": "Example Mod Author",
+  "homepage": "https://example.com/rdr2-weather-overhaul",
+  "type": "lml",
+  "game": "red-dead-redemption-2",
+  "description": "Example manifest for an RDR2 LML mod managed by RDR2 Mod Manager.",
+  "files": [
+    "lml/example-weather/install.xml",
+    "lml/example-weather/stream/clouds.ytd"
+  ],
+  "requires": ["lml"],
+  "conflictsWith": ["example-graphics-overhaul"],
+  "tags": ["rdr2", "lml", "weather", "graphics", "single-player"]
+}

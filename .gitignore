@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# RDR2 local paths and generated backups
+.rdr2mm/
+backups/
+profiles/local/
+*.bak
+
+# GitHub Pages/Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata

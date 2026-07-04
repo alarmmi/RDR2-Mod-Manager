@@ -1,0 +1,10 @@
+{
+  "gamePath": "C:/Games/Red Dead Redemption 2",
+  "modLibraryPath": "D:/RDR2 Mods/Library",
+  "backupPath": "D:/RDR2 Mods/Backups",
+  "activeProfile": "vanilla-safe",
+  "conflictDetection": true,
+  "hashAlgorithm": "sha256",
+  "safeMode": true,
+  "dryRunByDefault": true
+}

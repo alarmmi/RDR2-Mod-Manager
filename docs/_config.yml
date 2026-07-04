@@ -1,0 +1,19 @@
+title: RDR2 Mod Manager
+description: Open-source Red Dead Redemption 2 mod manager for PC with profiles, backups, conflict detection, LML support, ASI plugin tracking, and safe mod workflows.
+url: https://alarmmi.github.io
+baseurl: /RDR2-Mod-Manager
+repository: alarmmi/RDR2-Mod-Manager
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-remote-theme
+
+search_enabled: true
+heading_anchors: true
+aux_links:
+  GitHub Repository: https://github.com/alarmmi/RDR2-Mod-Manager
+
+color_scheme: dark
+
+footer_content: "Unofficial Red Dead Redemption 2 mod manager project. Not affiliated with Rockstar Games or Take-Two Interactive."
